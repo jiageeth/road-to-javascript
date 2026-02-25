@@ -1,0 +1,59 @@
+.recipe-title {
+    text-align: center;
+    color: #de3a11;
+    font-family: "Lobster";
+    font-size: 60px;
+}
+
+.ingredContainer {
+    background-image: linear-gradient(#537895, #104c9a);
+    border-radius: 16px;
+    padding: 10px;
+}
+
+.ingrediant-title {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.ingrediantListCont{
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 24px;
+}
+img {
+    border-radius: 20px;
+    width: 100%;
+    max-width: 700px;
+}
+
+/* Center the recipe block on the page and stack items column-wise */
+.pt-5.pb-5 {
+    min-height: 100vh;
+    display: flex;
+    align-items: center; /* vertical center */
+    justify-content: center; /* horizontal center */
+}
+
+#back {
+    display: flex; /* override Bootstrap .row flex settings when necessary */
+    flex-direction: column !important;
+    align-items: center; /* center children horizontally */
+    gap: 1rem;
+    width: 100%;
+    padding: 0 1rem;
+}
+
+/* Constrain the inner columns so they appear centered and consistent */
+#back .col-12.col-md-6,
+#back .col-12.col-md-5 {
+    width: 100%;
+    max-width: 720px;
+}
+
+.ingredients-container {
+    width: 100%;
+}

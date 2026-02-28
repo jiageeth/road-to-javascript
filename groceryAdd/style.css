@@ -1,0 +1,19 @@
+.back {
+    background-color: #03254c;
+    height: 100vh;
+    color: #f5f9fd;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.lisD {
+    background-color: #f5f9fd;
+    height: 250px;
+    margin: 50px;
+    border-radius: 10px;
+    color: black;
+    text-align: left;
+    padding: 20px;
+    font-size: 20px;
+}

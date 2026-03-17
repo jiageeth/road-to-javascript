@@ -1,0 +1,25 @@
+.bg-container {
+    background-image: url("elliott-engelmann-DjlKxYFJlTc-unsplash.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.light {
+    background-image: url("kent-pilcher-87MIF4vqHWg-unsplash.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.dark {
+    background-image: url("elliott-engelmann-DjlKxYFJlTc-unsplash.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.heading {
+    color: #014d40;
+    font-size: 48px;
+    font-family: "Lobster";
+}
+
+.user-input {
+    width: 150px;
+}
